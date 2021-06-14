@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.DetailFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_recipe_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_recipe_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Recipe title"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_recipe_ingredients_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Recipe Ingredients"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_recipe_reference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/recipe_reference"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
